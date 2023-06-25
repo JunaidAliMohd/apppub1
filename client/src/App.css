@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  background: linear-gradient(to left, rgba(255, 0, 0, 0.5), rgba(0, 128, 0, 0.5), rgba(128, 0, 128, 0.5));
+}
+
+.App {
+  display: inline-block;
+  padding: 10px;
+  border: 5px dotted brown;
+  margin: 10px;
+
+}
+
+.MainTable {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+table,
+td {
+  border: 5px solid rgba(128, 0, 128, 0.5);
+  background-color: black;
+  color: bisque;
+}
+
+th {
+  border: 5px solid rgba(128, 0, 128, 0.5);
+  background-color: rgb(0, 251, 71);
+  color: red;
+}
+
+table {
+  border-collapse: collapse;
+}
