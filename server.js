@@ -4,6 +4,8 @@ let express = require("express");
 let cors = require("cors");
 let path = require("path");
 
+dotenv.config();
+
 let app = express();
 app.use(cors());
 app.use(express.static(path.join(__dirname,"./client/build")));
@@ -19,7 +21,7 @@ app.listen(2424, () => {
 
 
 
-dotenv.config();
+
 
 let connectToMDB = async () => {
     try {
